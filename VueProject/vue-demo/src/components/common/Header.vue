@@ -10,13 +10,13 @@
 				@select="handleSelect"
 				background-color="#545c64"
 				text-color="#fff"
-				router="true"
+				:router="true"
 				active-text-color="#ffd04b">
-				<el-menu-item index="/">首页</el-menu-item>
-				<el-menu-item index="/analysis">数据分析</el-menu-item>
+				<el-menu-item index="/root/home">首页</el-menu-item>
+				<el-menu-item index="/root/analysis">数据分析</el-menu-item>
 				<el-submenu index="2">
 					<template slot="title">个人中心</template>
-					<el-menu-item index="/...">身份信息</el-menu-item>
+					<el-menu-item index="/root/profile">身份信息</el-menu-item>
 					<el-menu-item index="/...">投诉建议</el-menu-item>
 					<el-menu-item index="/...">定制服务</el-menu-item>
 				</el-submenu>

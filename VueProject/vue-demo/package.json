@@ -14,10 +14,26 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.14",
+    "@fortawesome/free-brands-svg-icons": "^5.7.1",
+    "@fortawesome/free-regular-svg-icons": "^5.7.1",
+    "@fortawesome/free-solid-svg-icons": "^5.7.1",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
+    "animate.css": "^3.7.0",
+    "axios": "^0.18.0",
     "echarts": "^4.2.0-rc.2",
     "echarts-gl": "^1.1.1",
     "element-ui": "^2.4.11",
-    "vue": "^2.5.2"
+    "font-awesome": "^4.7.0",
+    "iview": "^3.2.2",
+    "js-md5": "^0.7.3",
+    "qs": "latest",
+    "socket.io-client": "^2.2.0",
+    "vue": "^2.5.2",
+    "vue-awesome": "^3.3.1",
+    "vue-axios": "^2.1.4",
+    "vue-socket.io": "^3.0.7",
+    "vue-wechat-title": "^2.0.5"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -27,6 +43,7 @@
     "babel-jest": "^21.0.2",
     "babel-loader": "^7.1.1",
     "babel-plugin-dynamic-import-node": "^1.2.0",
+    "babel-plugin-import": "^1.11.0",
     "babel-plugin-syntax-jsx": "^6.18.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.22.0",

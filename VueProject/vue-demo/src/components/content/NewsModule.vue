@@ -3,7 +3,7 @@
   <el-table
     :data="tableData2"
     style="width: 100%"
-		:size="small"
+		size="small"
 		:show-header="false"
     :row-class-name="tableRowClassName">
     <el-table-column

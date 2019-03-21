@@ -17,7 +17,10 @@
 								<!-- Table -->
 								<el-row>
 									<el-col>
-										<el-button icon="el-icon-setting" circle @click="dialogTableVisible = true"></el-button>
+										<el-button circle @click="dialogTableVisible = true">
+										<FontAwesomeIcon :icon="['fas', 'chart-area']" size="2x" ></FontAwesomeIcon>
+										</el-button>
+										<p>123</p>
 									</el-col>
 								</el-row>
 								<el-row>
@@ -309,6 +312,7 @@
 <script>
 	import Chart1 from '../components/content/analysis/Chart1.vue'
 	import Chart2 from '../components/content/analysis/Chart2.vue'
+	import {FontAwesomeIcon, FontAwesomeLayers} from '@fortawesome/vue-fontawesome'
 	//import Chart3 from '../components/content/analysis/Chart3.vue'
 	export default {
 		data() {
@@ -400,7 +404,7 @@
 			};
 		},
 		components:{
-			Chart1, Chart2
+			Chart1, Chart2, FontAwesomeIcon
 		},
 		methods: {
       toggleSelection(rows) 
